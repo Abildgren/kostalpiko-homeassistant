@@ -73,6 +73,8 @@ class PikoSensor(SensorEntity):
         if self._unit_of_measurement == ENERGY_KILO_WATT_HOUR:
             self._attr_device_class = DEVICE_CLASS_ENERGY
             self._attr_state_class = STATE_CLASS_TOTAL_INCREASING
+        else:
+            self._attr_state_class = STATE_CLASS_MEASUREMENT
 
     @property
     def name(self):
