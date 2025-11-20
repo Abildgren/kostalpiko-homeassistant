@@ -1,8 +1,8 @@
 {
-  "codeowners": ["@bertel2020"],
+  "codeowners": ["@Abildgren"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/bertel2020/kostalpiko-homeassistant",
+  "documentation": "https://github.com/Abildgren/kostalpiko-homeassistant",
   "domain": "kostal",
   "name": "Kostal Piko",
   "requirements": ["kostalpiko>=0.6"],
